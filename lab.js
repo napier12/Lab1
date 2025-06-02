@@ -191,4 +191,9 @@ function greetStr(name) {
 
 var name = "Alice Smith";
 
-
+/* 
+EMCA standards have resolved the issue of hoisting by using let and const 
+instead of var. Function declarations are the only functions that are hoisted,
+and can be made and expression, IIFE, arrow function, or callback function to be 
+avoided.
+*/
